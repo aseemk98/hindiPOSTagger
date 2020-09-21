@@ -1,0 +1,56 @@
+.header {
+    top: 0;
+    left: 0;
+    padding: 2px;
+    text-align: center;
+    background: rgb(69, 69, 69);
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.input{
+    margin-top: 25vh;
+}
+
+form {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.submit-button {
+    background-color: rgb(69,69,69);
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.result {
+    height: 60vh;
+    width: 100%;
+    overflow: auto;
+    margin-left: 40vh;
+    margin-right: 40vh;
+}

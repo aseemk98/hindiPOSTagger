@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content%}
+    <table>
+        <tr>
+            <th class="table-heading">Word</th>
+            <th class="table-heading">Tag</th>
+        </tr>
+        {% for row in data %}
+            <tr>
+                <td class="table-entry">{{ row[0] }}</td>
+                <td class="table-entry">{{ row[1] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}
