@@ -21,13 +21,9 @@ def getpos():
     tokenized_text = indic_tokenize.trivial_tokenize(text)
     with open("./postagger.pkl",'rb') as f:
         pos_tagger = pickle.load(f)
-    
     output = pos_tagger.tag(tokenized_text)
-    print(output)
-    # op_dict = {}
-    # op_dict['output'] = output
     return render_template('result.html',data = output)
 
-if __name__ == "__main__":        # on running python app.py
+if __name__ == "__main__":
     app.run(debug=True)
     # ३९ गेंदों में दो चौकों और एक छक्के की मदद से ३४ रन बनाने वाले परोरे अंत तक आउट नहीं हुए।

@@ -20,7 +20,7 @@
 }
 
 body {
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .input{
@@ -45,6 +45,7 @@ form {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 20vh;
 }
 
 .result {
@@ -53,4 +54,20 @@ form {
     overflow: auto;
     margin-left: 40vh;
     margin-right: 40vh;
+}
+
+.table-heading {
+    text-align: center;
+    font-style: italic;
+    color: rgb(42, 42, 42);
+}
+  
+.table-entry {
+    text-align: center;
+    font-style: italic;
+    color: rgb(134, 134, 134);
+}
+
+textarea{
+    width: 20vh;
 }
