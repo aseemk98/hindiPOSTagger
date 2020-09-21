@@ -35,4 +35,4 @@ def getpos():
 
 
 if __name__ == "__main__":        # on running python app.py
-    app.run()  
+    app.run(debug=True)  
